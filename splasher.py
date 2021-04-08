@@ -74,7 +74,7 @@ if __name__ == '__main__':
         path = path_c
     # checking windows bit size
 
-    system_type = struct.calcsize("P")
+    system_type = struct.calcsize("P") * 8
     while True:
 
         img_path = downloader(path,wallpapers_Source)
