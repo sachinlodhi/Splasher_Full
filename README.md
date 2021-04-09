@@ -12,10 +12,12 @@
 ---
 
 ###_What?_
+
 This is a simple script written in Python to download the wallpapers of desired resolution and set as 
 background on _Windows(32bit/64bit)_.
 
 ###_Why?_
+
 I have been literally fascinated with customization of the
 desktop environment and one day I have been looking for the automatic wallpaper changer for _Windows_.
 After exploring many options I could conclude that none of the options I tried were _free_ or they had some 
@@ -27,6 +29,7 @@ from the one of the biggest library of the photos i.e. _UNSPLASH_.
 
 ![Unsplash](https://unsplash.com/favicon.ico "Unsplash")
 ***
+
 ###_How?_
 
 When I was exploring the idea to build something on my own then I search for _Unsplash API_ though I did not get 
@@ -79,7 +82,8 @@ There were many more use cases but I employed last two depicted ones:
 
 ***
 
-##_Usage_
+
+###_Usage_
 
 1. Download the Zip file from the [repository](https://github.com/sachinlodhi/Splasher) or clone the repository using 
 following command in command prompt. _Make Sure Git is installed_.
