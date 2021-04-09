@@ -79,7 +79,7 @@ There were many more use cases but I employed last two depicted ones:
 
 ***
 
-###_Usage_
+##_Usage_
 
 1. Download the Zip file from the [repository](https://github.com/sachinlodhi/Splasher) or clone the repository using 
 following command in command prompt. _Make Sure Git is installed_.
