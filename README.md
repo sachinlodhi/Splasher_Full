@@ -12,12 +12,10 @@
 ---
 
 ### _What?_
-
 This is a simple script written in Python to download the wallpapers of desired resolution and set as 
 background on _Windows(32bit/64bit)_.
 
 ### _Why?_
-
 I have been literally fascinated with customization of the
 desktop environment and one day I have been looking for the automatic wallpaper changer for _Windows_.
 After exploring many options I could conclude that none of the options I tried were _free_ or they had some 
@@ -29,7 +27,6 @@ from the one of the biggest library of the photos i.e. _UNSPLASH_.
 
 ![Unsplash](https://unsplash.com/favicon.ico "Unsplash")
 ***
-
 ### _How?_
 
 When I was exploring the idea to build something on my own then I search for _Unsplash API_ though I did not get 
@@ -102,10 +99,24 @@ pip install -r requirements.txt
 5. Once requirements are installed type the command according to the following usage syntax:
 - For using Random mode with tags
 ```commandline
-python -s random -i [Seconds OPTIONAL] -t1 [Tag1 OPTIONAL] -t2 [Tag2 OPTIONAL] -r [Resolution OPTIONAL] 
+python [-s random] [-i Seconds OPTIONAL] [-t1 Tag1 OPTIONAL] [-t2 Tag2 OPTIONAL] [-r Resolution OPTIONAL] [-v Verbosity Optional] 
 ```
+
+- _Example_
+  
+```python -s random -i 60 -t1 california -t2 USA -r 1920*1080 -v ON```
 
 - For using Random mode with Collection ID
 ```commandline
-python -s collection -i [Seconds OPTIONAL] -c_id [CollectionId Optional] -r [Resolution OPTIONAL] 
+python [-s collection] [-i Seconds OPTIONAL] [-c_id CollectionId Optional] [-r Resolution OPTIONAL] [-v Verbosity Optional] 
 ```
+- _Example_
+  
+```python -s collection -c_id 19542 -r 1920*1080 -v ON```
+
+
+### _Constraints_
+The limit of requests that can be sent to the **Source** is 50 requests (MAX) per hour.
+So set the time interval keeping that in mind so that the request limit is not
+exceeded. 
+- Limit exceeding may lead to the blocking of IP by Unplash Server. 
