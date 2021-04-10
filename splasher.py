@@ -70,7 +70,7 @@ if __name__ == '__main__':
     if  wallpapers_Source == "random":
         path = path_r
         print("[INFO] Wallpaper SOURCE is {}".format(args["source"]))
-        print("[INFO] Wallpaper TAGS are is {} {}".format(args["tag1"], args["tag2"]))
+        print("[INFO] Wallpaper TAGS are {}, {}".format(args["tag1"], args["tag2"]))
     elif wallpapers_Source == "collection":
         path = path_c
         print("[INFO] Wallpaper SOURCE is {}".format(args["source"]))
