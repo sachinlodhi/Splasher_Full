@@ -1,5 +1,8 @@
 # Splasher
 > Python script to download and set wallpapers on windows from Unsplash
+
+> Ignore everything below if you are downloading exe file. 
+
 <hr>
 
 ### Table of Content
