@@ -1,0 +1,2 @@
+Run following command to generate executable file.
+pyinstaller.exe --windowed --onefile --icon=splash.png main.py
