@@ -24,12 +24,12 @@ This is a simple script written in Python to download the wallpapers of desired 
 background on _Windows(32bit/64bit)_.
 
 ### _Why?_
-I have been literally fascinated with customization of the
-desktop environment and one day I have been looking for the automatic wallpaper changer for _Windows_.
-After exploring many options I could conclude that none of the options I tried were _free_ or they had some 
-different kind of limitations.
-So I decided to write a simple python script which would allow user to select the type of the wallpaper 
-from the one of the biggest library of the photos i.e. _UNSPLASH_.
+I have been fascinated with the customization of the
+desktop environment, and one day, I was looking for an automatic wallpaper changer for _Windows_.
+After exploring many options, I could conclude that none of the options I tried were _free_ or they had some 
+different kinds of limitations.
+So, I decided to write a simple python script that would allow users to select the type of wallpaper 
+from one of the biggest libraries of photos, i.e., _UNSPLASH_.
 
 [Check _Unsplash_ here](https://www.Unsplash.com "Unsplash")
 
@@ -37,8 +37,8 @@ from the one of the biggest library of the photos i.e. _UNSPLASH_.
 ***
 ### _How?_
 
-When I was exploring the idea to build something on my own then I search for _Unsplash API_ though I did not get 
-exactly _API_ for fetching wallpapers from _Unsplash_ but I found _Source_ which is built for small and low-traffic applications.
+When I was exploring the idea of building something on my own then, I search for _Unsplash API_ though I did not get 
+exactly _API_ for fetching wallpapers from _Unsplash_, but I found _Source_, which is built for small and low-traffic applications.
 Some use case scenario of _Source_ is as follows:
 
 - _Getting Random photo from specific **User**_
